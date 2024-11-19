@@ -32,3 +32,4 @@ Output shape après cette couche de MaxPooling : (8, 8, 32)
 Entraînement du CNN
 1.La binary_crossentropy est la loss adaptée pour la classification binaire, car elle mesure l'écart entre les probabilités prédites (par la fonction d'activation sigmoid) et les étiquettes réelles (0 ou 1). 
 
+5. Je dirais que ca converge bien car la LOSSS diminu beaucuop avec le temps puis finis par stagner. ET Accuracy augmente beaucoup puis finis par stagner aussi.
