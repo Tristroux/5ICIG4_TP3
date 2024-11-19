@@ -58,7 +58,7 @@ def process_images(old_dir, new_dir, categories, img_size):
                 
                 # Sauvegarder le label dans le fichier correspondant
                 with open(label_file_path, "w") as lf:
-                    lf.write(f"{label[0]},{label[1]}")
+                    lf.write(f"{label[0]} {label[1]}")
                 
                 counter += 1
             except Exception as e:
